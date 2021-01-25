@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .App {
   text-align: center;
-  font-family: "Imbue", serif;
+  font-family: "Lato";
 }
 
-.App-header {
-  background-color: #282c34;
+.App-background {
+  background-color: #6a7a8a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,28 +19,23 @@
 li {
   display: flex;
   list-style: none;
-  border-radius: 30px;
-  width: 800px;
-  background-color: rgba(228, 228, 228, 0.378);
-  margin-bottom: 1em;
+  border-radius: 15px;
+  width: 780px;
+  background-color: #3c4045;
+  margin-bottom: 25px;
   padding: 30px;
 }
 
 img {
-  height: 200px;
+  height: 175px;
 }
 
-.main-info {
+.drink-info {
   text-align: left;
-  margin-top: -1.5em;
   margin-left: 10px;
 }
 
 .beer-desc {
-  /* color: rgba(0, 0, 0, 0.864); */
-  font-family: "Libre Baskerville", serif;
-  font-size: 25px;
+  font-family: "Lato";
+  font-size: 30px;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Imbue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Imbue&family=Libre+Baskerville&display=swap");

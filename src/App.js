@@ -26,7 +26,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="App-background">
         <ol>{this.state.arrayOfBeer.map((beer, index) => {
           return (
             <BeerCard key={index} name={beer.name} image_url={beer.image_url} first_brewed={beer.first_brewed} tagline={beer.tagline} abv={beer.abv} description={beer.description}></BeerCard>

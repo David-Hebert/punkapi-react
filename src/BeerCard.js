@@ -11,7 +11,7 @@ function BeerCard  (props) {
         <li>
         <img src={props.image_url}></img>
         <div>
-            <div className='main-info'>
+            <div className='drink-info'>
                 <h2>{props.name}</h2>
                 <p> First Crafted: {props.first_brewed}</p> 
                 <p>{props.abv}</p>
